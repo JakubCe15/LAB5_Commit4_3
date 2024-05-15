@@ -20,7 +20,9 @@ class Main {
             String nazwisko = br.readLine();
             System.out.println("Podaj wiek studenta:");
             int wiek = Integer.parseInt(br.readLine());
-            s.addStudent(new Student(imię, nazwisko, wiek));
+            System.out.println("Podaj datę urodzenia studenta:");
+            String dataUrodzenia = br.readLine();
+            s.addStudent(new Student(imię, nazwisko, wiek, dataUrodzenia));
             break;
           case "2":
             var students = s.getStudents();

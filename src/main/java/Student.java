@@ -3,6 +3,7 @@ public class Student {
   private String Name;
   private String Surname;
   private int Age;
+  private String dateOfBirth;
 
   public Student(String name, String surname,int age) {
     Name = name;
