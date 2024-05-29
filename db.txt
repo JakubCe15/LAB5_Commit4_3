@@ -1,1 +1,2 @@
 marek gsad 50
+Janek Kowalski 25 10.04.2002
